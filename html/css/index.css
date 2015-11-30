@@ -1,0 +1,11 @@
+/*content*/
+.forum-topic-list .title{height:35px;line-height:35px;padding:0 0 0 16px;font-size:15px;font-weight:bold;background:#f0f0f0;color:#369;position:relative;border-radius:3px;}
+.forum-topic-list .title i{position:absolute;right:10px;top:9px;font-size:16px;cursor:pointer;}
+.forum-topic-list dl{position:relative;padding:20px 0;width:410px;height:80px;float:left;}
+.forum-topic-list dl dt{width:30px;text-align:center;}
+.forum-topic-list dl dt i{font-size:30px;color:#3ba1f0;}
+.forum-topic-list dl dd{position:absolute;left:41px;top:20px;}
+.forum-topic-desc h1 a{font-size:18px;color:#333;font-weight:bold;line-height:28px;}
+.forum-topic-desc p,.forum-topic-desc span,.forum-topic-desc a,.forum-topic-desc i{color:#888;font-style:normal;font-size:12px;line-height:21px;}
+.forum-topic-desc i{margin:0 6px;}
+.forum-topic-desc span.create-time{margin:0 8px;}
