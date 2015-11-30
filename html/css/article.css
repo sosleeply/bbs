@@ -10,8 +10,8 @@
     border-bottom:1px dashed #ddd;
 }
 .article-content dl dt .author-name a:hover{text-decoration:underline;}
-.article-content dl dt .head-picture{padding:16px 33px;text-align:center;}
-.article-content dl dt .head-picture img{width:100px;height:100px;}
+.article-content dl dt .head-picture{padding:16px 22px;text-align:center;}
+.article-content dl dt .head-picture img{width:100px;height:100px;border:11px solid #fff;}
 /**/
 .article-content dl dd{width:1059px;float:right;min-height:266px;background:#fff;border-left:1px solid #c2d5e3;}
 .article-content dl dd .title{height:39px;line-height:39px;border-bottom:5px solid #e5e3dd;padding:0 28px;}
