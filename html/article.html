@@ -10,27 +10,7 @@
     <link href="css/article.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript">
         $(function(){
-            var timer = null;
-            $(".search-box .search-type").mouseover(function(){
-                clearInterval(timer);
-                $(".search-box ul").css({"display":"block"});
-            }).mouseout(function(){
-                timer = setTimeout(function(){
-                    $(".search-box ul").css("display","none");
-                },100);
-            });
 
-            $(".search-box ul").mouseover(function(){
-                clearInterval(timer);
-            }).mouseout(function(){
-                timer = setTimeout(function(){
-                    $(".search-box ul").css("display","none");
-                },100);
-            });
-            $(".search-box ul li").click(function(){
-                $(".search-box .search-type text").text($(this).text());
-                $(".search-box ul").css("display","none");
-            });
         })
     </script>
     <style type="text/css">
@@ -61,25 +41,7 @@
     </div>
     <div class="clearfix"></div>
 </header>
-<div class="search">
-    <div class="search-box">
-        <input type="text" placeholder="请输入搜索内容" />
-        <span class="search-type"><text>帖子</text><i class="fa fa-caret-down"></i></span>
-        <ul>
-            <li>帖子</li>
-            <li>用户</li>
-        </ul>
-        <span class="search-btn"><i class="fa fa-search"></i> </span>
-        <dl>
-            <dt>热搜:</dt>
-            <dd><a href="javascript:;">Canvas</a></dd>
-            <dd><a href="javascript:;">WebGL</a></dd>
-            <dd><a href="javascript:;">CSS3</a></dd>
-            <dd><a href="javascript:;">WebSocket</a></dd>
-            <dd><a href="javascript:;">离线存储</a></dd>
-        </dl>
-    </div>
-</div>
+
 
 <section class="content">
     <div class="current-path">
@@ -109,7 +71,11 @@
                     <span class="type">[原创]</span><span class="text">HTML5 CANVAS绘图的REDO和UNDO功能的实现</span>
                 </div>
                 <div class="create-time">
-                    <span class="fa fa-user"></span>
+                    <div class="left">
+                        <span class="fa fa-user user-icon"></span>发表于<span class="date-time">2015-11-30 23:00:00</span>
+                        <span class="space">|</span>
+                        <a href="javascript:;" class="only-author">只看该作者</a>
+                    </div>
                 </div>
             </dd>
             <div class="clearfix"></div>
