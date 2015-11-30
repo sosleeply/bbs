@@ -1,0 +1,57 @@
+/*?????????*/
+.add-article{border:none !important;}
+/*????*/
+.article-content{width:1228px;border:1px solid #ddd;}
+.article-content dl{background: #e8eff5;}
+.article-content dl dt{width:168px;height:100%;float:left;}
+.article-content dl dt .view-info{height:39px;line-height:39px;text-align:center;border-bottom:5px solid #c2d5e3;}
+.article-content dl dt .view-info i{color:#f0836e;margin:0 6px;}
+.article-content dl dt .author-name{line-height:31px;padding:0 13px;font-size:13px;color:#333;
+    border-bottom:1px dashed #ddd;
+}
+.article-content dl dt .author-name a:hover{text-decoration:underline;}
+.article-content dl dt .head-picture{padding:16px 33px;text-align:center;}
+.article-content dl dt .head-picture img{width:100px;height:100px;}
+/**/
+.article-content dl dd{width:1059px;float:right;min-height:266px;background:#fff;border-left:1px solid #c2d5e3;}
+.article-content dl dd .title{height:39px;line-height:39px;border-bottom:5px solid #e5e3dd;padding:0 28px;}
+.article-content dl dd .title .type{color:#2661a3;margin:0 8px 0 0;}
+.article-content dl dd .title .text{color:#333;font-weight:bold;}
+.article-content dl dd .create-time{padding:0 28px;line-height:31px;padding:0 28px;font-size:13px;color:#333;}
+.article-content dl dd .create-time .left{border-bottom:1px dashed #ddd;font-size:12px;}
+.article-content dl dd .create-time .left .user-icon{color:#b5f000;font-size:18px;width:16px;display:inline-block;margin-right:8px;}
+.article-content dl dd .create-time .left .date-time{margin:0 8px;font-size:12px;}
+.article-content dl dd .create-time .left .space{margin:0 10px;font-size:12px;}
+.article-content dl dd .create-time .left .only-author{font-size:12px;color:#2661a3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
