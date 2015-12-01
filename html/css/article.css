@@ -2,35 +2,42 @@
 .add-article{border:none !important;}
 /*????*/
 .article-content{width:1228px;border:1px solid #ddd;}
-.article-content dl{background: #e8eff5;}
+.article-content dl{background: #e8eff5;position:relative;}
 .article-content dl dt{width:168px;height:100%;float:left;}
-.article-content dl dt .view-info{height:39px;line-height:39px;text-align:center;border-bottom:5px solid #c2d5e3;}
+.article-content dl dt .view-info{height:39px;line-height:39px;text-align:center;}
 .article-content dl dt .view-info i{color:#f0836e;margin:0 6px;}
-.article-content dl dt .author-name{line-height:31px;padding:0 13px;font-size:13px;color:#333;
-    border-bottom:1px dashed #ddd;
+.article-content dl dt .author-name{height:31px;line-height:31px;padding:0 13px;font-size:13px;color:#333;
+    border-bottom:1px dashed #ddd;border-top:5px solid #c2d5e3;
 }
 .article-content dl dt .author-name a:hover{text-decoration:underline;}
 .article-content dl dt .head-picture{padding:16px 22px;text-align:center;}
 .article-content dl dt .head-picture img{width:100px;height:100px;border:11px solid #fff;}
 /**/
-.article-content dl dd{width:1059px;float:right;min-height:266px;background:#fff;border-left:1px solid #c2d5e3;}
-.article-content dl dd .title{height:39px;line-height:39px;border-bottom:5px solid #e5e3dd;padding:0 28px;}
+.article-content dl dd{width:1058px;float:left;min-height:266px;background:#fff;border-left:1px solid #c2d5e3;}
+.article-content dl dd .title{height:39px;line-height:39px;padding:0 28px;}
 .article-content dl dd .title .type{color:#2661a3;margin:0 8px 0 0;}
 .article-content dl dd .title .text{color:#333;font-weight:bold;}
-.article-content dl dd .create-time{padding:0 28px;line-height:31px;padding:0 28px;font-size:13px;color:#333;}
-.article-content dl dd .create-time .left{border-bottom:1px dashed #ddd;font-size:12px;}
-.article-content dl dd .create-time .left .user-icon{color:#b5f000;font-size:18px;width:16px;display:inline-block;margin-right:8px;}
-.article-content dl dd .create-time .left .date-time{margin:0 8px;font-size:12px;}
-.article-content dl dd .create-time .left .space{margin:0 10px;font-size:12px;}
-.article-content dl dd .create-time .left .only-author{font-size:12px;color:#2661a3;}
-
-
-
-
-
-
-
-
+.article-content .create-time{padding:0 28px;border-top:5px solid #e5e3dd;}
+.article-content .create-time-container{border-bottom:1px dashed #ddd;height:31px;line-height:31px;font-size:13px;color:#333;}
+.article-content .create-time .left{font-size:12px;width:666px;float:left;}
+.article-content .create-time .left .user-icon{color:#b5f000;font-size:18px;width:16px;display:inline-block;margin-right:8px;}
+.article-content .create-time .left .date-time{margin:0 8px;font-size:12px;}
+.article-content .create-time .left .space{margin:0 10px;font-size:12px;position:relative;top:-1px;}
+.article-content .create-time .left .only-author{font-size:12px;color:#2661a3;}
+.article-content .create-time .right{width:166px;float:right;font-size:13px;color:#333;text-align:right;}
+.article-content .create-time .right .symbol{position:relative;top:-6px;margin:0 16px 0 3px;}
+.article-content .create-time .right span{font-size:12px;}
+.article-content .create-time .right input{display:inline-block;width:23px;height:15px;padding:0 3px;margin:0 5px;border:1px solid #aaa;}
+.article-content .create-time .right i.send{color:#3ba1f0;}
+.article-content .article-text{padding:16px 28px 28px 28px;line-height:21px;text-indent:28px;}
+.article-content .replay-and-complaint{padding:0 28px;position:absolute;bottom:0;width:1002px;}
+.article-content dl:hover .replay-and-complaint>div{opacity:1;}
+.article-content .replay-and-complaint>div{height:39px;line-height:39px;border-top:1px dashed #ddd;position:relative;opacity:0.5;}
+.article-content .replay-and-complaint a.replay{font-size:12px;position:absolute;left:0;}
+.article-content .replay-and-complaint a.replay:hover{color:#3ba1f0;text-decoration:underline;}
+.article-content .replay-and-complaint i.replay-icon{color:#ffb600;font-size:18px;margin-right:10px;}
+.article-content .replay-and-complaint a.complaint{position:absolute;right:0;font-size:12px;}
+.article-content .replay-and-complaint a.complaint:hover{text-decoration:underline;color:#3ba1f0;}
 
 
 
