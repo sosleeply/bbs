@@ -20,7 +20,7 @@
 .article-content .create-time{padding:0 28px;border-top:5px solid #e5e3dd;}
 .article-content .create-time-container{border-bottom:1px dashed #ddd;height:31px;line-height:31px;font-size:13px;color:#333;}
 .article-content .create-time .left{font-size:12px;width:666px;float:left;}
-.article-content .create-time .left .user-icon{color:#b5f000;font-size:18px;width:16px;display:inline-block;margin-right:8px;}
+.article-content .create-time .left .user-icon{color: #f09307;font-size:18px;width:16px;display:inline-block;margin-right:8px;}
 .article-content .create-time .left .date-time{margin:0 8px;font-size:12px;}
 .article-content .create-time .left .space{margin:0 10px;font-size:12px;position:relative;top:-1px;}
 .article-content .create-time .left .only-author{font-size:12px;color:#2661a3;}
@@ -33,12 +33,15 @@
 .article-content .article-text{padding:16px 28px 28px 28px;line-height:21px;text-indent:28px;}
 .article-content .replay-and-complaint{padding:0 28px;position:absolute;bottom:0;width:1002px;}
 .article-content dl:hover .replay-and-complaint>div{opacity:1;}
-.article-content .replay-and-complaint>div{height:39px;line-height:39px;border-top:1px dashed #ddd;position:relative;opacity:0.5;}
-.article-content .replay-and-complaint a.replay{font-size:12px;position:absolute;left:0;}
-.article-content .replay-and-complaint a.replay:hover{color:#3ba1f0;text-decoration:underline;}
-.article-content .replay-and-complaint i.replay-icon{color:#ffb600;font-size:18px;margin-right:10px;}
-.article-content .replay-and-complaint a.complaint{position:absolute;right:0;font-size:12px;}
-.article-content .replay-and-complaint a.complaint:hover{text-decoration:underline;color:#3ba1f0;}
+.article-content .replay-and-complaint>div{height:39px;line-height:39px;border-top:1px dashed #ddd;position:relative;opacity:0.3;}
+.article-content .replay-and-complaint a{font-size:12px;position:absolute;}
+.article-content .replay-and-complaint a.replay{left:0;}
+.article-content .replay-and-complaint a.give{left:88px;}
+.article-content .replay-and-complaint a:hover{color:#3ba1f0;text-decoration:underline;}
+.article-content .replay-and-complaint .replay-icon{color:#ffb600;font-size:16px;margin-right:10px;}
+.article-content .replay-and-complaint .give .replay-icon{position:relative;top:2px;}
+.article-content .replay-and-complaint a.complaint{right:0;}
+
 
 
 
