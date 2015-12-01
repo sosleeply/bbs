@@ -2,8 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda62221-2c3b-47a9-a789-0796bfbda6fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_21jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_31.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_35.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_36.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_37.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_38.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_39.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_40.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/article.css" afterPath="$PROJECT_DIR$/html/css/article.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/article.html" afterPath="$PROJECT_DIR$/html/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/commons.css" afterPath="$PROJECT_DIR$/html/css/commons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/topic.html" afterPath="$PROJECT_DIR$/html/topic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bbs.iws" />
@@ -32,8 +74,8 @@
       <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.791666" vertical-offset="8108" max-vertical-offset="9600">
-              <caret line="569" column="41" selection-start-line="569" selection-start-column="41" selection-end-line="569" selection-end-column="41" />
+            <state vertical-scroll-proportion="-30.291666" vertical-offset="2708" max-vertical-offset="13620">
+              <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -42,8 +84,8 @@
       <file leaf-file-name="article.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/css/article.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73414904" vertical-offset="0" max-vertical-offset="1110">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5339266" vertical-offset="0" max-vertical-offset="1500">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,8 +113,8 @@
         <option value="$PROJECT_DIR$/html/recommend.html" />
         <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/html/css/index.css" />
-        <option value="$PROJECT_DIR$/html/topic.html" />
         <option value="$PROJECT_DIR$/html/lib/mapfish/mapfish.css" />
+        <option value="$PROJECT_DIR$/html/topic.html" />
         <option value="$PROJECT_DIR$/html/css/commons.css" />
         <option value="$PROJECT_DIR$/html/article.html" />
         <option value="$PROJECT_DIR$/html/css/article.css" />
@@ -84,8 +126,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="561" />
-    <option name="y" value="62" />
+    <option name="x" value="819" />
+    <option name="y" value="25" />
     <option name="width" value="1922" />
     <option name="height" value="1042" />
   </component>
@@ -178,6 +220,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/images/head" />
+      <recent name="$PROJECT_DIR$/html/images/level" />
       <recent name="E:\Current\bbs\html\images\head" />
       <recent name="E:\Current\bbs\html\images" />
       <recent name="$PROJECT_DIR$/html/lib" />
@@ -312,7 +356,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="62" width="1922" height="1042" extended-state="0" />
+    <frame x="819" y="25" width="1922" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,6 +435,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -408,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28474575" vertical-offset="0" max-vertical-offset="0">
-          <caret line="332" column="20" selection-start-line="332" selection-start-column="20" selection-end-line="332" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/lib/mapfish/mapfish.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08342603" vertical-offset="0" max-vertical-offset="899">
@@ -423,26 +461,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13341068" vertical-offset="8780" max-vertical-offset="10260">
+          <caret line="593" column="47" selection-start-line="593" selection-start-column="47" selection-end-line="593" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/css/commons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.607142" vertical-offset="1648" max-vertical-offset="3135">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2206" max-vertical-offset="3150">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.791666" vertical-offset="8108" max-vertical-offset="9600">
-          <caret line="569" column="41" selection-start-line="569" selection-start-column="41" selection-end-line="569" selection-end-column="41" />
+        <state vertical-scroll-proportion="-30.291666" vertical-offset="2708" max-vertical-offset="13620">
+          <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css/article.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73414904" vertical-offset="0" max-vertical-offset="1110">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5339266" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
