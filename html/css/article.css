@@ -24,6 +24,7 @@
 .article-content .create-time .left .date-time{margin:0 8px;font-size:12px;}
 .article-content .create-time .left .space{margin:0 10px;font-size:12px;position:relative;top:-1px;}
 .article-content .create-time .left .only-author{font-size:12px;color:#2661a3;}
+.article-content .create-time .left .only-author:hover{text-decoration:underline;}
 .article-content .create-time .right{width:166px;float:right;font-size:13px;color:#333;text-align:right;}
 .article-content .create-time .right .symbol{position:relative;top:-6px;margin:0 16px 0 3px;}
 .article-content .create-time .right span{font-size:12px;}
