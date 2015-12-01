@@ -106,6 +106,40 @@ body{background:#fff;padding:50px 0 0 0;}
 .article-list-tb td.last-replay .p1{color:#555;}
 .article-list-tb td.last-replay .p2{color:#aaa;}
 
+/*replay-content*/
+.replay-content{margin-top:16px;border:1px solid #ddd;padding:28px;}
+.replay-textarea{border:1px solid #999;height:150px;}
+.replay-textarea .replay-toolbar{position:relative;line-height:39px;height:28px;padding:0 8px;border-bottom:1px solid #ccc;
+    background:#ddd;
+}
+.replay-toolbar span{background: url(../images/editor.png) no-repeat;display:inline-block;width:20px;height:20px;}
+.replay-toolbar span.one{background-position: 0 -241px;}
+.replay-toolbar span.two{background-position: -27px -241px;}
+.replay-toolbar span.three{background-position: 0 -60px;}
+.replay-toolbar span.four{background-position: 0 0;}
+.replay-toolbar span.five{background-position: -60px 0;}
+.replay-toolbar span.six{background-position: 0 -20px;}
+.replay-toolbar span.seven{background-position: -40px -20px;}
+.replay-toolbar span.eight{background-position: -140px -20px;}
+.replay-toolbar span.nine{background-position: -20px -20px;}
+.replay-toolbar a{position:absolute;line-height:20px;right:18px;top:5px;font-size:12px;}
+.replay-toolbar a:hover{color:#3ba1f0;text-decoration:underline;}
+.replay-textarea .login{line-height:130px;text-align:center;}
+.replay-textarea .login span{font-size:12px;}
+.replay-textarea .login span a{color:#3ba1f0;margin:0 6px;font-size:12px;}
+.replay-textarea .login span a:hover{text-decoration:underline;}
+.replay-textarea .login span i{font-size:12px;position:relative;top:-1px;}
+.replay-textarea .login span img{position:relative;top:6px;}
+/*replay-content-btn*/
+.replay-content .replay-btn{height:39px;line-height:39px;margin-top:8px;}
+.replay-content .replay-btn a{padding:8px 16px;background:#2661a3;color:#fff;font-size:12px;}
+.replay-content .replay-btn .redirect-last-page{margin-left:8px;cursor:pointer;font-size:12px;}
+.redirect-last-page input{position:relative;top:2px;margin-right:5px;}
+
+
+
+
+
 /*page-pager*/
 .page-pager{padding:10px 0;font-size:0;margin:0 0 20px 0;}
 .page-pager-left{display:inline-block;float:left;width:24%;box-sizing:border-box;line-height:31px;
