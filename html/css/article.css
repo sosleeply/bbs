@@ -54,13 +54,16 @@
 .article-content .create-time .right a.delete{margin-right:10px;}
 .article-content .create-time .right a:hover{text-decoration:underline;}
 
-
+/*edit-by-user*/
+.article-content .edit-by-user{text-align:center;padding:16px 28px 0 28px;}
+.article-content .edit-by-user span{font-size:11px;color:#aaa;text-shadow:0 0 6px #ccc85a;}
+.article-content .edit-by-user span.user,.article-content .edit-by-user span.date-time{padding:0 8px;}
 /*article-text*/
 .article-content .article-text{padding:16px 28px 39px 28px;line-height:21px;text-indent:28px;}
 /*comment*/
 .article-content dl dd{padding-bottom:58px;}
 .article-content dl dd div.comment{padding:0 28px 39px 28px;width:1002px;}
-.article-content dl dd div.comment h1{width:333px;height:31px;line-height:31px;color:#f09307;font-weight:bold;background: #ffe5ba;position:relative;padding:0 0 0 10px;}
+.article-content dl dd div.comment h1{width:388px;height:31px;line-height:31px;color:#f09307;font-weight:bold;background: #fff4dd;position:relative;padding:0 0 0 10px;}
 .article-content dl dd div.comment h1:hover,.article-content dl dd div.comment h1:hover i{color: #f27016;}
 .article-content dl dd div.comment h1 i{line-height:31px;color:#f09307;margin-right:3px;font-size:12px;}
 .article-content dl dd div.comment h1 img{height:31px;position:absolute;right:0;}
