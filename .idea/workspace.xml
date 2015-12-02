@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda62221-2c3b-47a9-a789-0796bfbda6fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_21jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_39.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/head/head_40.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/head/head9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/article.css" afterPath="$PROJECT_DIR$/html/css/article.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/article.html" afterPath="$PROJECT_DIR$/html/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/commons.css" afterPath="$PROJECT_DIR$/html/css/commons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/topic.html" afterPath="$PROJECT_DIR$/html/topic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bbs.iws" />
@@ -71,21 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.291666" vertical-offset="2708" max-vertical-offset="13620">
-              <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.675" vertical-offset="5445" max-vertical-offset="14955">
+              <caret line="399" column="22" selection-start-line="399" selection-start-column="22" selection-end-line="399" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="article.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/article.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5339266" vertical-offset="0" max-vertical-offset="1500">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1665">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,8 +74,8 @@
         <option value="$PROJECT_DIR$/html/lib/mapfish/mapfish.css" />
         <option value="$PROJECT_DIR$/html/topic.html" />
         <option value="$PROJECT_DIR$/html/css/commons.css" />
-        <option value="$PROJECT_DIR$/html/article.html" />
         <option value="$PROJECT_DIR$/html/css/article.css" />
+        <option value="$PROJECT_DIR$/html/article.html" />
       </list>
     </option>
   </component>
@@ -126,10 +84,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="819" />
+    <option name="x" value="236" />
     <option name="y" value="25" />
-    <option name="width" value="1922" />
-    <option name="height" value="1042" />
+    <option name="width" value="1912" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -356,7 +314,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="819" y="25" width="1922" height="1042" extended-state="0" />
+    <frame x="236" y="25" width="1912" height="1036" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -365,19 +323,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13578275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13743316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -401,6 +359,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2708" max-vertical-offset="13620">
+          <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/article.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/article.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2115">
@@ -435,7 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13341068" vertical-offset="8780" max-vertical-offset="10260">
           <caret line="593" column="47" selection-start-line="593" selection-start-column="47" selection-end-line="593" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,18 +449,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/article.html">
+    <entry file="file://$PROJECT_DIR$/html/css/article.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.291666" vertical-offset="2708" max-vertical-offset="13620">
-          <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1665">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/article.css">
+    <entry file="file://$PROJECT_DIR$/html/article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5339266" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.675" vertical-offset="5445" max-vertical-offset="14955">
+          <caret line="399" column="22" selection-start-line="399" selection-start-column="22" selection-end-line="399" selection-end-column="22" />
           <folding />
         </state>
       </provider>

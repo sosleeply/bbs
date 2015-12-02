@@ -44,20 +44,31 @@
 .article-content .create-time .left .space{margin:0 10px;font-size:12px;position:relative;top:-1px;}
 .article-content .create-time .left .only-author{font-size:12px;color:#2661a3;}
 .article-content .create-time .left .only-author:hover{text-decoration:underline;}
-.article-content .create-time .right{width:166px;float:right;font-size:13px;color:#333;text-align:right;}
+.article-content .create-time .right{width:266px;float:right;font-size:13px;color:#333;text-align:right;}
 .article-content .create-time .right .symbol{position:relative;top:-6px;margin:0 16px 0 3px;}
 .article-content .create-time .right span{font-size:12px;}
 .article-content .create-time .right input{display:inline-block;width:23px;height:15px;padding:0 3px;margin:0 5px;border:1px solid #aaa;}
 .article-content .create-time .right i.send{color:#3ba1f0;}
+/*move edit delete*/
+.article-content .create-time .right a{display:inline-block;padding:0 6px;font-size:12px;color:#2661a3;}
+.article-content .create-time .right a.delete{margin-right:10px;}
+.article-content .create-time .right a:hover{text-decoration:underline;}
+
+
 /*article-text*/
 .article-content .article-text{padding:16px 28px 21px 28px;line-height:21px;text-indent:28px;}
 /*comment*/
 .article-content dl dd{padding-bottom:80px;}
 .article-content dl dd div.comment{padding:0 28px;width:1002px;margin-top:8px;}
 .article-content dl dd div.comment h1{line-height:31px;color:#f09307;font-weight:bold;}
-.article-content dl dd div.comment ul li{font-size:12px;color:#3ba1f0;text-indent:28px;line-height:23px;}
+.article-content dl dd div.comment h1 i{line-height:31px;color:#f09307;margin-right:3px;font-size:12px;}
+.article-content dl dd div.comment ul li{font-size:12px;color:#3ba1f0;line-height:23px;text-indent:28px;}
 .article-content dl dd div.comment ul li .author{font-size:11px;color:#3ba1f0;}
-.article-content dl dd div.comment ul li .content{margin-left:8px;font-size:11px;color:#999;}
+.article-content dl dd div.comment ul li .content{margin-left:6px;font-size:11px;color:#999;}
+.article-content dl dd div.comment ul li img.head-picture{width:16px;height:16px;position:relative;top:4px;margin-right:8px;border-radius:8px;}
+.article-content dl dd div.comment ul li a,.article-content dl dd div.comment ul li span{line-height:23px;}
+
+
 /*replay-and-complaint*/
 .article-content .replay-and-complaint{padding:0 28px;position:absolute;bottom:0;width:1002px;}
 .article-content dl:hover .replay-and-complaint>div{opacity:1;}
