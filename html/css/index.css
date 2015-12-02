@@ -1,5 +1,8 @@
 /*content*/
-.forum-topic-list .title{height:35px;line-height:35px;padding:0 0 0 16px;font-size:15px;font-weight:bold;background:#f0f0f0;color:#2661a3;position:relative;border-radius:3px;}
+.forum-topic-list .title{height:35px;line-height:35px;padding:0 0 0 16px;font-size:15px;font-weight:bold;
+    background:#f0f0f0;color:#3ba1f0;position:relative;border-radius:3px;box-shadow:1px 5px 5px #ddd;
+    text-shadow:5px 5px 5px #aaa;
+}
 .forum-topic-list .title i{position:absolute;right:10px;top:9px;font-size:16px;cursor:pointer;}
 .forum-topic-list dl{position:relative;padding:20px 0;width:410px;height:80px;float:left;}
 .forum-topic-list dl dt{width:30px;text-align:center;}
