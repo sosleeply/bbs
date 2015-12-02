@@ -10,7 +10,27 @@
 <link href="css/index.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
     $(function(){
+        var timer = null;
+        $(".search-box .search-type").mouseover(function(){
+            clearInterval(timer);
+            $(".search-box ul").css({"display":"block"});
+        }).mouseout(function(){
+            timer = setTimeout(function(){
+                $(".search-box ul").css("display","none");
+            },100);
+        });
 
+        $(".search-box ul").mouseover(function(){
+            clearInterval(timer);
+        }).mouseout(function(){
+            timer = setTimeout(function(){
+                $(".search-box ul").css("display","none");
+            },100);
+        });
+        $(".search-box ul li").click(function(){
+            $(".search-box .search-type text").text($(this).text());
+            $(".search-box ul").css("display","none");
+        });
     })
 </script>
 <style type="text/css">
@@ -41,18 +61,37 @@
 		</div>
         <div class="clearfix"></div>
 	</header>
-    <div class="top">
-        <nav class="top-nav">
+    <div class="search">
+        <div class="search-box">
+            <input type="text" placeholder="请输入搜索内容" />
+            <span class="search-type"><text>帖子</text><i class="fa fa-caret-down"></i></span>
             <ul>
-                <li><a href="javascript:;">最新</a></li>
-                <li><a href="javascript:;">精华</a></li>
-                <li><a href="javascript:;">回复</a></li>
-                <li><a href="javascript:;">图片</a></li>
-                <li class="active"><a href="javascript:;">版块</a></li>
+                <li>帖子</li>
+                <li>用户</li>
             </ul>
-        </nav>
-        <div class="clearfix"></div>
+            <span class="search-btn"><i class="fa fa-search"></i> </span>
+            <dl>
+                <dt>热搜:</dt>
+                <dd><a href="javascript:;">Canvas</a></dd>
+                <dd><a href="javascript:;">WebGL</a></dd>
+                <dd><a href="javascript:;">CSS3</a></dd>
+                <dd><a href="javascript:;">WebSocket</a></dd>
+                <dd><a href="javascript:;">离线存储</a></dd>
+            </dl>
+        </div>
     </div>
+    <!--<div class="top">-->
+        <!--<nav class="top-nav">-->
+            <!--<ul>-->
+                <!--<li><a href="javascript:;">最新</a></li>-->
+                <!--<li><a href="javascript:;">精华</a></li>-->
+                <!--<li><a href="javascript:;">回复</a></li>-->
+                <!--<li><a href="javascript:;">图片</a></li>-->
+                <!--<li class="active"><a href="javascript:;">版块</a></li>-->
+            <!--</ul>-->
+        <!--</nav>-->
+        <!--<div class="clearfix"></div>-->
+    <!--</div>-->
 
     <section class="content">
         <div class="forum-topic-list">
