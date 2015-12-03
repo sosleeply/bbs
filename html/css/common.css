@@ -12,6 +12,7 @@ a{-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transi
 .header-nav ul{width:830px;float:left;}
 .header-nav li{float:left;line-height:50px;}
 .header-nav li a:link,.header-nav li a:visited{color:#fff;padding:0 23px;font-size:15px;}
+.header-nav li a:hover{text-decoration:none;}
 .header-nav li:hover{background:#222;}
 .header-nav li.active{background:#3ba1f0;}
 .header-loginbar{width:180px;float:right;text-align:right;}
@@ -106,7 +107,7 @@ a{-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transi
 .article-list-tb td.last-replay .p2{color:#aaa;}
 
 /*replay-content*/
-.replay-content{margin-top:16px;border:1px solid #ddd;padding:28px;}
+.replay-content{border-top:1px solid #c2d5e3;padding:28px;}
 .replay-textarea{border:1px solid #999;height:150px;}
 .replay-textarea .replay-toolbar{position:relative;line-height:39px;height:28px;padding:0 8px;border-bottom:1px solid #ccc;
     background:#ddd;
