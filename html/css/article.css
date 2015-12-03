@@ -68,7 +68,7 @@
 .article-content dl dd div.comment ul{margin-top:8px;}
 .article-content dl dd div.comment ul li{color:#3ba1f0;line-height:26px;text-indent:28px;border-bottom:1px dashed #ddd;}
 .article-content dl dd div.comment ul li .author{font-size:12px;color:#3ba1f0;}
-.article-content dl dd div.comment ul li .content{margin-left:6px;font-size:12px;color:#999;border:none;}
+.article-content dl dd div.comment ul li span.text{margin-left:6px;font-size:12px;color:#999;}
 .article-content dl dd img.head-picture{width:16px;height:16px;position:relative;top:4px;margin-right:8px;border-radius:8px;}
 .article-content dl dd div.comment ul li a,.article-content dl dd div.comment ul li span{line-height:26px;}
 /*give*/
