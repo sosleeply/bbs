@@ -10,7 +10,27 @@
     <link href="css/article.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript">
         $(function(){
+            var timer = null;
+            $(".search-box .search-type").mouseover(function(){
+                clearInterval(timer);
+                $(".search-box ul").css({"display":"block"});
+            }).mouseout(function(){
+                timer = setTimeout(function(){
+                    $(".search-box ul").css("display","none");
+                },100);
+            });
 
+            $(".search-box ul").mouseover(function(){
+                clearInterval(timer);
+            }).mouseout(function(){
+                timer = setTimeout(function(){
+                    $(".search-box ul").css("display","none");
+                },100);
+            });
+            $(".search-box ul li").click(function(){
+                $(".search-box .search-type text").text($(this).text());
+                $(".search-box ul").css("display","none");
+            });
         })
     </script>
     <style type="text/css">
@@ -41,7 +61,25 @@
     </div>
     <div class="clearfix"></div>
 </header>
-
+<div class="search">
+    <div class="search-box">
+        <input type="text" placeholder="请输入搜索内容" />
+        <span class="search-type"><text>帖子</text><i class="fa fa-caret-down"></i></span>
+        <ul>
+            <li>帖子</li>
+            <li>用户</li>
+        </ul>
+        <span class="search-btn"><i class="fa fa-search"></i> </span>
+        <dl>
+            <dt>热搜:</dt>
+            <dd><a href="javascript:;">Canvas</a></dd>
+            <dd><a href="javascript:;">WebGL</a></dd>
+            <dd><a href="javascript:;">CSS3</a></dd>
+            <dd><a href="javascript:;">WebSocket</a></dd>
+            <dd><a href="javascript:;">离线存储</a></dd>
+        </dl>
+    </div>
+</div>
 
 <section class="content">
     <div class="current-path">
@@ -141,33 +179,33 @@
                 <div class="comment give">
                     <h1><i class="fa fa-circle-o"></i>打赏:<img src="images/arw.gif" /></h1>
                     <div class="list">
-                        <span class="user"><a>参与</a></span>
-                        <span class="money"><a>金币</a><i class="total-money">+<i>18</i></i> </span>
-                        <span class="reason"><a>理由</a></span>
+                        <span class="user"><label>参与</label></span>
+                        <span class="money"><label>金币</label><i class="total-money">+<i>18</i></i> </span>
+                        <span class="reason"><label>理由</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_11.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_46.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_33.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                 </div>
                 <div class="comment">
@@ -261,33 +299,33 @@
                 <div class="comment give">
                     <h1><i class="fa fa-circle-o"></i>打赏:<img src="images/arw.gif" /></h1>
                     <div class="list">
-                        <span class="user"><a>参与</a></span>
-                        <span class="money"><a>金币</a><i class="total-money">+<i>18</i></i> </span>
-                        <span class="reason"><a>理由</a></span>
+                        <span class="user"><label>参与</label></span>
+                        <span class="money"><label>金币</label><i class="total-money">+<i>18</i></i> </span>
+                        <span class="reason"><label>理由</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_11.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_46.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_33.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                 </div>
                 <div class="comment">
@@ -378,33 +416,33 @@
                 <div class="comment give">
                     <h1><i class="fa fa-circle-o"></i>打赏:<img src="images/arw.gif" /></h1>
                     <div class="list">
-                        <span class="user"><a>参与</a></span>
-                        <span class="money"><a>金币</a><i class="total-money">+<i>18</i></i> </span>
-                        <span class="reason"><a>理由</a></span>
+                        <span class="user"><label>参与</label></span>
+                        <span class="money"><label>金币</label><i class="total-money">+<i>18</i></i> </span>
+                        <span class="reason"><label>理由</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_11.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_46.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                     <div class="list item">
                         <span class="user item">
                             <img class="head-picture" src="images/head/head_33.jpg" />
                             <a href="javascript:;" class="author">JavaScript</a>
                         </span>
-                        <span class="money item"><a>+<i>6</i></a></span>
-                        <span class="reason item"><a>挺好的</a></span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
                     </div>
                 </div>
                 <div class="comment">
@@ -492,19 +530,37 @@
                     onclick       点击事件
                     onfocus      获得焦点
                 </div>
-                <div class="comment">
-                    <h1><i class="fa fa-circle-o"></i>评论:<img src="images/arw.gif" /></h1>
-                    <ul>
-                        <li><img class="head-picture" src="images/head/head_11.jpg" /><a href="javascript:;" class="author">JavaScript</a>:
-                            <span class="content">那么我们在学习过程中到底需要掌握那些基础知识呢！</span>
-                        </li>
-                        <li><img class="head-picture" src="images/head/head_39.jpg" /><a href="javascript:;" class="author">Android</a>:
-                            <span class="content">那么我们在学习过程中到底需要掌握那些基础知识呢！</span>
-                        </li>
-                        <li><img class="head-picture" src="images/head/head_19.jpg" /><a href="javascript:;" class="author">Struts</a>:
-                            <span class="content">那么我们在学习过程中到底需要掌握那些基础知识呢！</span>
-                        </li>
-                    </ul>
+                <div class="comment give">
+                    <h1><i class="fa fa-circle-o"></i>打赏:<img src="images/arw.gif" /></h1>
+                    <div class="list">
+                        <span class="user"><label>参与</label></span>
+                        <span class="money"><label>金币</label><i class="total-money">+<i>18</i></i> </span>
+                        <span class="reason"><label>理由</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_11.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_46.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_33.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
                 </div>
                 <div class="replay-and-complaint">
                     <div>
@@ -577,19 +633,37 @@
                     onclick       点击事件
                     onfocus      获得焦点
                 </div>
-                <div class="comment">
-                    <h1><i class="fa fa-circle-o"></i>评论:<img src="images/arw.gif" /></h1>
-                    <ul>
-                        <li><img class="head-picture" src="images/head/head_11.jpg" /><a href="javascript:;" class="author">JavaScript</a>:
-                            <span class="content">那么我们在学习过程中到底需要掌握那些基础知识呢！</span>
-                        </li>
-                        <li><img class="head-picture" src="images/head/head_39.jpg" /><a href="javascript:;" class="author">Android</a>:
-                            <span class="content">那么我们在学习过程中到底需要掌握那些基础知识呢！</span>
-                        </li>
-                        <li><img class="head-picture" src="images/head/head_19.jpg" /><a href="javascript:;" class="author">Struts</a>:
-                            <span class="content">那么我们在学习过程中到底需要掌握那些基础知识呢！</span>
-                        </li>
-                    </ul>
+                <div class="comment give">
+                    <h1><i class="fa fa-circle-o"></i>打赏:<img src="images/arw.gif" /></h1>
+                    <div class="list">
+                        <span class="user"><label>参与</label></span>
+                        <span class="money"><label>金币</label><i class="total-money">+<i>18</i></i> </span>
+                        <span class="reason"><label>理由</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_11.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_46.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_33.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
                 </div>
                 <div class="replay-and-complaint">
                     <div>
@@ -661,6 +735,38 @@
                     onmousemove 鼠标移动
                     onclick       点击事件
                     onfocus      获得焦点
+                </div>
+                <div class="comment give">
+                    <h1><i class="fa fa-circle-o"></i>打赏:<img src="images/arw.gif" /></h1>
+                    <div class="list">
+                        <span class="user"><label>参与</label></span>
+                        <span class="money"><label>金币</label><i class="total-money">+<i>18</i></i> </span>
+                        <span class="reason"><label>理由</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_11.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_46.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
+                    <div class="list item">
+                        <span class="user item">
+                            <img class="head-picture" src="images/head/head_33.jpg" />
+                            <a href="javascript:;" class="author">JavaScript</a>
+                        </span>
+                        <span class="money item"><label>+<i>6</i></label></span>
+                        <span class="reason item"><label>挺好的</label></span>
+                    </div>
                 </div>
                 <div class="comment">
                     <h1><i class="fa fa-circle-o"></i>评论:<img src="images/arw.gif" /></h1>
