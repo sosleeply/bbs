@@ -2,7 +2,7 @@
 .content{width:1228px;border:1px solid #c2d5e3;box-shadow:0 0 3px 3px rgba(66,66,66,0.2);}
 .forum-topic-list .title{height:31px;line-height:31px;padding:0 0 0 16px;font-size:13px;font-weight:bold;
     background:url(../images/titlebg.png);color:#369;position:relative;
-    text-shadow:3px 3px 3px rgba(66,66,66,0.5);box-shadow:0 2px 2px rgba(66,66,66,0.4);
+    text-shadow:3px 3px 3px rgba(66,66,66,0.5);box-shadow:0 2px 2px rgba(66,66,66,0.2);
 }
 .forum-topic-list .title i{position:absolute;right:10px;top:6px;font-size:16px;cursor:pointer;text-shadow:3px 3px 3px rgba(66,66,66,0.5);color:#999;}
 .forum-topic-list dl{position:relative;padding:20px;width:369px;height:68px;float:left;}
