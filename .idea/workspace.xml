@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda62221-2c3b-47a9-a789-0796bfbda6fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/article.css" afterPath="$PROJECT_DIR$/html/css/article.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/article.html" afterPath="$PROJECT_DIR$/html/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/index.css" afterPath="$PROJECT_DIR$/html/css/index.css" />
     </list>
     <ignored path="bbs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25195968" vertical-offset="0" max-vertical-offset="893">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.464286" vertical-offset="180" max-vertical-offset="3165">
+            <state vertical-scroll-proportion="-8.035714" vertical-offset="360" max-vertical-offset="3165">
               <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding />
             </state>
@@ -48,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="article.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/article.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20156775" vertical-offset="630" max-vertical-offset="2010">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2010">
               <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
               <folding />
             </state>
@@ -114,7 +123,6 @@
         <option value="$PROJECT_DIR$/html/lib/mapfish/mapfish.css" />
         <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/html/topic.html" />
-        <option value="$PROJECT_DIR$/html/css/index.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/html/front.html" />
         <option value="$PROJECT_DIR$/html/front-page.html" />
@@ -122,6 +130,7 @@
         <option value="$PROJECT_DIR$/html/css/front.css" />
         <option value="$PROJECT_DIR$/html/article.html" />
         <option value="$PROJECT_DIR$/html/css/article.css" />
+        <option value="$PROJECT_DIR$/html/css/index.css" />
       </list>
     </option>
   </component>
@@ -130,7 +139,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="548" />
+    <option name="x" value="561" />
     <option name="y" value="25" />
     <option name="width" value="1912" />
     <option name="height" value="1036" />
@@ -379,7 +388,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="548" y="25" width="1912" height="1036" extended-state="0" />
+    <frame x="561" y="25" width="1912" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -612,14 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25195968" vertical-offset="0" max-vertical-offset="893">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3452244" vertical-offset="585" max-vertical-offset="4260">
@@ -663,14 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.464286" vertical-offset="180" max-vertical-offset="3165">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1162" max-vertical-offset="2055">
@@ -689,8 +682,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css/article.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20156775" vertical-offset="630" max-vertical-offset="2010">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2010">
           <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.035714" vertical-offset="360" max-vertical-offset="3165">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25195968" vertical-offset="0" max-vertical-offset="893">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
