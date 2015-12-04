@@ -21,7 +21,7 @@ a{-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transi
 }
 .header-loginbar a:hover{text-decoration:underline;}
 /*search*/
-.search{width:1228px;margin:16px auto 0 auto;height:43px;background:#e8eff5;box-shadow:0 0 3px 3px rgba(66,66,66,0.2);border-left:1px solid #c2d5e3;
+.search{width:1228px;margin:0 auto 0 auto;height:43px;background:#e8eff5;box-shadow:0 0 3px 3px rgba(66,66,66,0.2);border-left:1px solid #c2d5e3;
     border-right:1px solid #c2d5e3;
 }
 .search-box{font-size:0;position:relative;}
