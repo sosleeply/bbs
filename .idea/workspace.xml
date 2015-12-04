@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eda62221-2c3b-47a9-a789-0796bfbda6fb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/article.css" afterPath="$PROJECT_DIR$/html/css/article.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/article.html" afterPath="$PROJECT_DIR$/html/article.html" />
     </list>
     <ignored path="bbs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +51,8 @@
       <file leaf-file-name="article.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/css/article.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20156775" vertical-offset="30" max-vertical-offset="2010">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.20156775" vertical-offset="630" max-vertical-offset="2010">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -81,8 +82,8 @@
       <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.5" vertical-offset="17961" max-vertical-offset="19380">
-              <caret line="1235" column="10" selection-start-line="1235" selection-start-column="10" selection-end-line="1235" selection-end-column="10" />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="2286" max-vertical-offset="19110">
+              <caret line="162" column="41" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -112,7 +113,6 @@
         <option value="$PROJECT_DIR$/html/css/topic.css" />
         <option value="$PROJECT_DIR$/html/lib/mapfish/mapfish.css" />
         <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/html/article.html" />
         <option value="$PROJECT_DIR$/html/topic.html" />
         <option value="$PROJECT_DIR$/html/css/index.css" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -120,6 +120,7 @@
         <option value="$PROJECT_DIR$/html/front-page.html" />
         <option value="$PROJECT_DIR$/html/css/common.css" />
         <option value="$PROJECT_DIR$/html/css/front.css" />
+        <option value="$PROJECT_DIR$/html/article.html" />
         <option value="$PROJECT_DIR$/html/css/article.css" />
       </list>
     </option>
@@ -643,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.5" vertical-offset="17961" max-vertical-offset="19380">
-          <caret line="1235" column="10" selection-start-line="1235" selection-start-column="10" selection-end-line="1235" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/front-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.625" vertical-offset="3735" max-vertical-offset="6255">
@@ -686,10 +679,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="2286" max-vertical-offset="19110">
+          <caret line="162" column="41" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/css/article.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20156775" vertical-offset="30" max-vertical-offset="2010">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.20156775" vertical-offset="630" max-vertical-offset="2010">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding />
         </state>
       </provider>
