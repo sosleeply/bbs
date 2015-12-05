@@ -13,8 +13,8 @@ a{-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transi
 .header-nav li{float:left;line-height:50px;}
 .header-nav li a:link,.header-nav li a:visited{color:#fff;padding:0 23px;font-size:15px;}
 .header-nav li a:hover{text-decoration:none;}
-.header-nav li:hover{background:#363c41;}
-.header-nav li.active{background: #363c41;}
+.header-nav li:hover{background:rgba(255,255,255,0.3);}
+.header-nav li.active{background:rgba(255,255,255,0.3);}
 .header-loginbar{width:180px;float:right;text-align:right;}
 .header-loginbar a:link,.header-loginbar a:visited{line-height:50px;color:#ddd;font-size:12px;margin-left:10px;
     text-decoration:none;padding:0 8px;
