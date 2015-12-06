@@ -76,7 +76,7 @@
 .article-content .give .list{border-bottom:1px dashed #ddd;height:31px;line-height:31px;padding:0 28px;}
 .article-content .give .list span{display:inline-block;font-size:0;}
 .article-content .give .list span.user{width:188px;}
-.article-content .give .list span.user.item .author{font-size:12px;}
+.article-content .give .list span.user.item .author{font-size:12px;color:#3ba1f0;}
 .article-content .give .list span.money{width:115px;}
 .article-content .give .list span.money .total-money,.article-content .give .list span.money .total-money i{color:#f26c4f;}
 .article-content .give .list span.money .total-money{margin-left:6px;background: #fffcc4;}
