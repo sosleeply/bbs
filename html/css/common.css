@@ -64,7 +64,7 @@ a{-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transi
 .add-article{padding:10px 10px;border-bottom:3px solid #ddd;}
 .add-article .btn img{width:80px;height:33px;border:none;}
 /*article-categories*/
-.article-categories{line-height:38px;height:38px;padding:0 10px 5px 10px;}
+.article-categories{padding:10px 10px 10px 10px;}
 .article-categories i{font-style:normal;}
 .article-categories dt,.article-categories dd{float:left;margin-right:3px;}
 .article-categories dt a,.article-categories dd a{padding:5px 13px;font-size:11px;}
