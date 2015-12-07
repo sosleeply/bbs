@@ -11,7 +11,7 @@
 .front-end-list{padding:0 10px 0 10px;}
 .front-end-list dl{border-bottom:1px dashed #c2d5e3;padding:16px 0;}
 .front-end-list dl:nth-last-child(1){border:none;}
-.front-end-list dt{width:70px;float:left;margin-right:16px;background:#e7eaec;padding:10px 0;}
+.front-end-list dt{width:70px;height:81px;float:left;margin-right:16px;background:#e7eaec;padding:10px 0;}
 .front-end-list dt p{text-align:center;}
 .front-end-list dt .categories-icon{line-height:39px;text-align:center;font-size:31px;}
 .front-end-list dt .categories-icon i{color:#cb3434;}
@@ -19,7 +19,7 @@
 .front-end-list dt .categories-name span{font-size:12px;}
 
 
-.front-end-list dd{width:808px;float:right;}
+.front-end-list dd{width:808px;height:81px;float:right;}
 .front-end-list dd h1{margin-bottom:8px;}
 .front-end-list dd h1 a{font-size:16px;}
 .front-end-list dd h1 a:hover{text-decoration:none;}
@@ -112,6 +112,7 @@
 
 /*front-end-page .newest-comment*/
 .front-end-page .newest-comment{padding:16px 0 0 0;}
+.front-end-page .newest-comment h2{margin:0;}
 
 .front-end-page .newest-comment-list{height:66px;border-bottom:1px dashed #c2d5e3;overflow:hidden;padding:10px 0;}
 .front-end-page .newest-comment-list dt{width:66px;float:left;}
@@ -120,7 +121,7 @@
 .front-end-page .newest-comment-list dd .title{border:none;}
 .front-end-page .newest-comment-list dd .title a{font-size:12px;color:#2661a3;padding:0 8px 0 0;}
 .front-end-page .newest-comment-list dd .title span{font-size:12px;color:#888;}
-.front-end-page .newest-comment-list .comment-content{line-height:21px;}
+.front-end-page .newest-comment-list .comment-content{line-height:21px;text-indent:28px;}
 
 
 /*replay-content*/
