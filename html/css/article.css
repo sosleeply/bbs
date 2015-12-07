@@ -3,6 +3,7 @@
 .article-content dl{background: #e8eff5;position:relative;}
 .article-content dl dt{width:168px;min-height:333px;float:left;}
 .article-content dl dt .view-info{height:39px;line-height:39px;text-align:center;}
+.article-content dl dt .view-info label{color:#999;padding:0 3px 0 0;position:relative;top:-1px;font-size:11px;}
 .article-content dl dt .view-info i{color:#f0836e;margin:0 6px;}
 .article-content dl dt .author-name{height:31px;line-height:31px;padding:0 13px;color:#333;
     border-bottom:1px dashed #ddd;border-top:5px solid #c2d5e3;text-shadow:1px 1px 6px #fff;
