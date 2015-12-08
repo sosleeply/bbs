@@ -186,7 +186,7 @@ a{-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transi
 .notes-top nav ul{width:1070px;margin:0 auto;padding:0 0 0 193px;}
 .notes-top nav ul li{float:left;height:36px;line-height:36px;}
 .notes-top nav ul li a{color:#fff;padding:0 31px;}
-.notes-top nav ul li:hover,.notes-top nav ul li.active{background:#111;}
+.notes-top nav ul li:hover,.notes-top nav ul li.active{background:#f09307;}
 .notes-top nav ul li:hover a{text-decoration:none;}
 
 
