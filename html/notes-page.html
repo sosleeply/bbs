@@ -9,29 +9,7 @@
     <link href="css/common.css" type="text/css" rel="stylesheet" />
     <link href="css/notes.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript">
-        $(function(){
-            var timer = null;
-            $(".search-box .search-type").mouseover(function(){
-                clearInterval(timer);
-                $(".search-box ul").css({"display":"block"});
-            }).mouseout(function(){
-                timer = setTimeout(function(){
-                    $(".search-box ul").css("display","none");
-                },100);
-            });
 
-            $(".search-box ul").mouseover(function(){
-                clearInterval(timer);
-            }).mouseout(function(){
-                timer = setTimeout(function(){
-                    $(".search-box ul").css("display","none");
-                },100);
-            });
-            $(".search-box ul li").click(function(){
-                $(".search-box .search-type text").text($(this).text());
-                $(".search-box ul").css("display","none");
-            });
-        })
     </script>
     <style type="text/css">
 
@@ -44,7 +22,7 @@
         <nav class="header-nav">
             <ul>
                 <li><a href="index.html">社区</a></li>
-                <li class="active"><a href="notes.html">笔记</a></li>
+                <li><a href="notes.html">笔记</a></li>
                 <li><a href="ask.html">问问</a></li>
                 <li><a href="front.html">前端</a></li>
                 <li><a href="javascript:;">技术</a></li>
@@ -61,40 +39,52 @@
     </div>
     <div class="clearfix"></div>
 </header>
-<div class="search">
-    <div class="search-box">
-        <input type="text" placeholder="请输入搜索内容" />
-        <span class="search-type"><text>帖子</text><i class="fa fa-caret-down"></i></span>
-        <ul>
-            <li>帖子</li>
-            <li>用户</li>
-        </ul>
-        <span class="search-btn"><i class="fa fa-search"></i> </span>
-        <dl>
-            <dt>热搜:</dt>
-            <dd><a href="javascript:;">Canvas</a></dd>
-            <dd><a href="javascript:;">WebGL</a></dd>
-            <dd><a href="javascript:;">CSS3</a></dd>
-            <dd><a href="javascript:;">WebSocket</a></dd>
-            <dd><a href="javascript:;">离线存储</a></dd>
-        </dl>
-    </div>
+<div class="notes-top">
+        <div class="notes-top-content">
+            <div class="head-picture">
+                <img src="images/head/head_2.jpg" />
+            </div>
+            <h1>JavaScript的博客</h1>
+            <h2>精彩生活从这里开始</h2>
+            <div class="right">
+                <a href="javascript:;"><img src="images/friends.png" /></a>
+                <ul>
+                    <li class="active">
+                        <a href="javascript:;">
+                            <span>13</span>
+                            <em>笔记</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span>21</span>
+                            <em>好友</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span>818</span>
+                            <em>金币</em>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="javascript:;">博客首页</a></li>
+                <li class="active"><a href="notes-list.html">笔记</a></li>
+                <li><a href="javascript:;">话题</a></li>
+                <li><a href="javascript:;">留言板</a></li>
+                <li><a href="javascript:;">动态</a></li>
+                <li><a href="javascript:;">个人资料</a></li>
+                <li class="clearfix"></li>
+            </ul>
+        </nav>
 </div>
 
 <section class="content">
-    <div class="current-path">
-        <a href="javascript:;"><i class="fa fa-home"></i></a>
-        <span class="fa fa-angle-right"></span>
-        <a href="javascript:;">社区</a>
-        <span class="fa fa-angle-right"></span>
-        <a href="javascript:;">笔记</a>
-    </div>
     <div class="notes-content">
-        <nav class="title">
-            <ul>
-                <li><a href="notes-list.html">Ta的笔记</a></li>
-            </ul>
-        </nav>
         <h1 class="article-title">
             jQuery 筛选
         </h1>

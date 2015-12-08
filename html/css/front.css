@@ -82,7 +82,7 @@
 .front-end-page .title .row2 .view-count i{margin:0 6px 0 5px;color:#888;}
 .front-end-page .title .row2 .comment i{margin:0 6px 0 5px;color:#888;}
 
-.front-end-page .article-content{padding:16px 0;text-indent:28px;line-height:23px;overflow:hidden;}
+.front-end-page .article-content{padding:16px 0;line-height:23px;overflow:hidden;}
 .front-end-page .article-content>img{display:block;max-width:860px;margin:10px auto;}
 .front-end-page .views{padding:20px 0;}
 .front-end-page .views ul{height:200px;width:330px;margin:0 auto;}
