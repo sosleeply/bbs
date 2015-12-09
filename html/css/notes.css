@@ -12,11 +12,11 @@
 .notes-list dl{border-bottom:1px dashed #c2d5e3;padding:16px 0;}
 .notes-list dl:nth-last-child(1){border:none;}
 .notes-list dt{position:relative;background:#fff;width:70px;height:81px;float:left;margin-right:16px;padding:10px 0;}
-.notes-list dt img{position:absolute;left:0;top:0;width:70px;height:70px;
+.notes-list dt img{position:absolute;left:0;top:0;width:58px;height:58px;border:6px solid #fff;
     box-shadow:2px 2px 2px rgba(66,66,66,0.6);
 }
 .notes-list dt a.add-friends{display:block;width:70px;height:26px;line-height:26px;
-    position:absolute;top:70px;text-align:center;background:#f7f7f7;font-size:12px;
+    position:absolute;top:70px;text-align:center;background:#fff;font-size:12px;
     box-shadow:2px 2px 2px rgba(66,66,66,0.6);
 }
 .notes-list dt a.add-friends:hover{background:#f09307;color:#fff;text-decoration:none;}
@@ -72,7 +72,7 @@
 .notes-right .recommend dd a.article-title{color:#999;}
 .notes-right .recommend dd.add-friends{padding:0;position:absolute;left:208px;}
 .notes-right .recommend dd.add-friends a{width:58px;height:24px;
-    text-align:center;line-height:24px;font-size:12px;background:#f7f7f7;box-shadow:2px 2px 2px rgba(66,66,66,0.6);
+    text-align:center;line-height:24px;font-size:12px;background:#fff;box-shadow:2px 2px 2px rgba(66,66,66,0.6);
 }
 .notes-right .recommend dd.add-friends a:hover{text-decoration:none;background:#f09307;color:#fff;}
 
@@ -142,7 +142,7 @@
 
 .notes-content .newest-comment-list{height:66px;border-bottom:1px dashed #c2d5e3;overflow:hidden;padding:10px 0;}
 .notes-content .newest-comment-list dt{width:66px;float:left;}
-.notes-content .newest-comment-list dt img{width:54px;height:54px;border:6px solid #eee;box-shadow:2px 2px 2px rgba(66,66,66,0.6);}
+.notes-content .newest-comment-list dt img{width:54px;height:54px;border:6px solid #fff;box-shadow:2px 2px 2px rgba(66,66,66,0.6);}
 .notes-content .newest-comment-list dd{width:1126px;float:left;margin-left:10px;}
 .notes-content .newest-comment-list dd p{line-height:21px;}
 .notes-content .newest-comment-list dd .title{border:none;}
