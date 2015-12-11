@@ -31,9 +31,9 @@ h1,h2{color:#006293;}
 }
 .search-box span.search-type text{font-size:11px;}
 .search-box span.search-type i{margin-left:6px;width:13px;display:inline-block;}
-.search-box ul{position:absolute;left:310px;top:35px;z-index:1;display:none;background:#3ba1f0;padding:6px 0;}
-.search-box ul li{line-height:29px;text-align:center;width:58px;border-bottom:1px solid #3ba1f0;cursor:pointer;font-size:11px;color:#fff;}
-.search-box ul li:hover{background:#2661a3;}
+.search-box ul{position:absolute;left:310px;top:35px;z-index:1;display:none;background:#006293;padding:6px 0;}
+.search-box ul li{line-height:29px;text-align:center;width:58px;border-bottom:1px solid #006293;cursor:pointer;font-size:11px;color:#fff;}
+.search-box ul li:hover{background:#f09307;}
 .search-box span.search-btn{box-sizing:border-box;position:absolute;left:375px;top:9px;line-height:24px;padding:0 13px;
     border:0;border-radius:3px;cursor:pointer;background:#126fad;color:#fff;
 }
