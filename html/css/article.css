@@ -42,7 +42,7 @@
 .article-content .create-time .left{width:666px;float:left;}
 .article-content .create-time .left .user-icon{color: #f09307;font-size:18px;width:16px;display:inline-block;margin-right:8px;}
 .article-content .create-time .left .date-time{margin:0 8px;}
-.article-content .create-time .left .space{margin:0 10px;position:relative;top:-1px;}
+.article-content .create-time .left .space{margin:0 10px;position:relative;top:-1px;color:#999;}
 .article-content .create-time .left .only-author{color:#2661a3;}
 .article-content .create-time .left .only-author:hover{text-decoration:underline;}
 .article-content .create-time .right{width:266px;float:right;color:#333;text-align:right;}
