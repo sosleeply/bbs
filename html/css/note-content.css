@@ -23,22 +23,24 @@
 .notes-content .views ul li a:hover{text-decoration:none;color:#2661a3;}
 
 /*notes-content .friends*/
-.notes-content .friends h2,.notes-content .newest-comment h2{line-height:39px;font-weight:100;
-    border-bottom:1px solid #c2d5e3;font-size:15px;text-shadow:2px 2px 2px rgba(66,66,66,0.3);
-    margin:0 0 10px 0;
-}
-.notes-content .friends h2 i{margin:0 6px;font-weight:100;}
-.notes-content .friends ol li{width:69px;height:83px;float:left;margin:0 11px 0 0;}
-.notes-content .friends ol li a:hover p,.notes-content .friends ol li a:hover{color:#2661a3;}
-.notes-content .friends ol li img{display:block;width:54px;height:54px;margin:0 auto;border-radius:27px;
-    box-shadow:3px 3px 3px rgba(66,66,66,0.6);
-}
-.notes-content .friends ol li p{text-align:center;line-height:26px;}
+/*.notes-content .friends h2,.notes-content .newest-comment h2{line-height:39px;font-weight:100;*/
+    /*border-bottom:1px solid #c2d5e3;font-size:15px;text-shadow:2px 2px 2px rgba(66,66,66,0.3);*/
+    /*margin:0 0 10px 0;*/
+/*}*/
+/*.notes-content .friends h2 i{margin:0 6px;font-weight:100;}*/
+/*.notes-content .friends ol li{width:69px;height:83px;float:left;margin:0 11px 0 0;}*/
+/*.notes-content .friends ol li a:hover p,.notes-content .friends ol li a:hover{color:#2661a3;}*/
+/*.notes-content .friends ol li img{display:block;width:54px;height:54px;margin:0 auto;border-radius:27px;*/
+    /*box-shadow:3px 3px 3px rgba(66,66,66,0.6);*/
+/*}*/
+/*.notes-content .friends ol li p{text-align:center;line-height:26px;}*/
 
 
 /*notes-content .newest-comment*/
 .notes-content .newest-comment{padding:16px 0 0 0;}
-.notes-content .newest-comment h2{margin:0;}
+.notes-content .newest-comment h2{margin:0;line-height:31px;background:url(../images/titlebg.png) repeat-x;padding:0 0 0 16px;
+    box-shadow:2px 2px 2px rgba(66,66,66,0.6);text-shadow:2px 2px 2px rgba(66,66,66,0.6);
+}
 
 .notes-content .newest-comment-list{height:66px;border-bottom:1px dashed #c2d5e3;overflow:hidden;padding:10px 0;}
 .notes-content .newest-comment-list dt{width:66px;float:left;}
